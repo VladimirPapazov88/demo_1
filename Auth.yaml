@@ -1,0 +1,25 @@
+Authorization
+---
+tags:
+  - Authorization
+
+parameters:
+  - name: Login
+    in: body
+    required: true
+    schema:
+      id: Login data
+      required:
+        - phone
+        - password
+      properties:
+        phone:
+          type: string
+          description: Phone number
+        password:
+          type: string
+          description: Password
+
+responses:
+  200:
+    description: Name of user
