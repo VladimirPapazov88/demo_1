@@ -22,4 +22,4 @@ parameters:
 
 responses:
   200:
-    description: Name of user
+    description: JSON data
